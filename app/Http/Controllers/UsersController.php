@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\View;
 
 class UsersController extends Controller
 {
-    //added by sradha
+    //
     function loadView($name=""){
       
 if (View::exists('users')) {
